@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
-  get 'cases/index'
-  root "cases#index"
+  devise_for :users
+  root 'cases#index'
+resources :users
 end
