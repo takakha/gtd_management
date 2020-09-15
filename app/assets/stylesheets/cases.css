@@ -83,15 +83,14 @@
   display: inline-block;
   max-width: 180px;
   text-align: left;
-  border: 2px solid #9ec34b;
-  font-size: 16px;
-  color: #9ec34b;
+  background-color: #ffa300;
+  font-size: 20px;
+  color: #FFF;
   text-decoration: none;
   font-weight: bold;
-  padding: 8px 16px;
+  padding: 10px 24px;
   border-radius: 4px;
-  transition: .4s;
-
+  border-bottom: 4px solid #d37800;
 }
 
 .values-list{
@@ -99,7 +98,7 @@
   max-width: 180px;
   text-align: left;
   background-color: #ffa300;
-  font-size: 16px;
+  font-size: 20px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
@@ -109,27 +108,33 @@
 }
 
 .vision-list{
-    display: inline-block;
-    width: 180px;
-    text-align: center;
-    font-size: 16px;
-    color: #FFF;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 12px 24px;
-    border-radius: 4px;
-    background-image: linear-gradient(-90deg, #FF006E, #FFD500);
-    transition: .5s;
-    background-size: 200%;
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  background-color: #ffa300;
+  font-size: 20px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 4px;
+  border-bottom: 4px solid #d37800;
   }
   
-  .vision-list:hover {
-    background-position: right center;
-  }
 
 
 .goal-list{
+  display: inline-block;
+  max-width: 180px;
+  text-align: left;
+  background-color: #ffa300;
+  font-size: 20px;
+  color: #FFF;
   text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 4px;
+  border-bottom: 4px solid #d37800;
 }
 
 .header-button {
